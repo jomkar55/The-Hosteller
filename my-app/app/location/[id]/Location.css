@@ -1,0 +1,90 @@
+.location-container {
+    padding: 20px;
+    background-color: white;
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+ 
+  .hostel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hostel-card {
+    display: flex;
+    width: 100%;
+    height: 300px; 
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .hostel-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .hostel-image {
+    flex: 1; 
+    height: 100%;
+  }
+  
+  .hostel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .hostel-details {
+    flex: 1; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hostel-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-info {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: rgb(255 231 0 / var(--tw-bg-opacity, 1)); /* Yellow */
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: rgb(220 200 0 / var(--tw-bg-opacity, 1)); 
+  }
+  
